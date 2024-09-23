@@ -1,0 +1,21 @@
+body{margin: 0;}
+header{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    gap:16px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    width: 100%;
+
+    h1{
+        background: linear-gradient(to right, #00f7ff, #0400ff); 
+        -webkit-background-clip: text; 
+        color: transparent;
+        user-select: none;
+    }
+    img{
+        width: 48px;
+        margin: 0px 0px 0px 32px;
+        user-select: none;
+    }
+}
