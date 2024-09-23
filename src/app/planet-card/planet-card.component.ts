@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-planet-card',
@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
   styleUrl: './planet-card.component.scss'
 })
 export class PlanetCardComponent {
+
+  @Input() planetname:string = 'no planetname';
+  
+  
+  @Input() planetImg:string = 'imgSRC';
+
+  constructor (){};
 
 }

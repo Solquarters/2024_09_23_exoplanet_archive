@@ -1,4 +1,8 @@
 .mainAppComponentContainerClass{
 
     margin: 32px 32px;
+    display: flex;
+   flex-wrap: wrap;
+   gap: 16px;
+   justify-content: center;
 }

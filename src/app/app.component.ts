@@ -12,7 +12,12 @@ import { PlanetCardComponent } from './planet-card/planet-card.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'basics';
+  
+  planetStats = [
+    {planetName: "planet1", planetImg: "./assets/img/exoplanet01.webp", planetRadius: "testradius"},
+    {planetName: "planet2", planetImg: "./assets/img/exoplanet02.webp", planetRadius: "testradius"},
+    {planetName: "planet3", planetImg: "./assets/img/exoplanet03.webp", planetRadius: "testradius"}
+  ]
 
 
 
